@@ -1,0 +1,21 @@
+{
+  "name": "Akhilani/php-skeleton",
+  "description": "PSR-4 package micro framework",
+  "type": "project",
+  "require": {
+    "phpunit/phpunit": "^6.3",
+    "doctrine/orm": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Akhilani\\Skeleton\\": "src"
+    }
+  },
+  "license": "GPL v3",
+  "authors": [
+    {
+      "name": "Akhil Kadangode",
+      "email": "akhil.kadangode@gmail.com"
+    }
+  ]
+}
